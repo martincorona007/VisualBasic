@@ -11,12 +11,11 @@
         Console.WriteLine("3. Case 14,15 ")
         Console.WriteLine("4. for 20,22 ")
         Console.WriteLine("5. while 25,26,27 ")
-        Console.WriteLine("6. if-then-else 10,13 ")
-        Console.WriteLine("7. arrays 34,35,37 ")
-        Console.WriteLine("8. procedure y functions 39,44,45,46,48 ")
-        Console.WriteLine("9. Enumerations 51,52 ")
-        Console.WriteLine("10. OOP 51,52 ")
-        Dim opt, opt1, opt2, opt3 As Integer
+        Console.WriteLine("6. arrays 34,35,37 ")
+        Console.WriteLine("7. procedure y functions 39,44,45,46,48 ")
+        Console.WriteLine("8. Enumerations 51,52 ")
+        Console.WriteLine("9. OOP 56 to 60 ")
+        Dim opt, opt1, opt2, opt3, opt4, opt5, opt6 As Integer
         Console.WriteLine("Option: ")
         opt = Console.ReadLine()
 
@@ -138,10 +137,11 @@ respuestas incorrectas tendrá -1 y respuestas en blanco tendrá 0.")
                 opt3 = Console.ReadLine()
                 Dim NE As Integer
                 Dim ER As String
-
+                Dim MV As Integer
+                Dim TB As Double
                 Select Case opt3
                     Case 1
-                        Console.WriteLine("Elabore un algoritmo que permita ingresar un número entero (1 a 10), y muestre su equivalente en romano.")
+                        Console.WriteLine("14 Elabore un algoritmo que permita ingresar un número entero (1 a 10), y muestre su equivalente en romano.")
                         Console.WriteLine("Write: ")
                         NE = Console.ReadLine()
                         Select Case NE
@@ -173,12 +173,165 @@ respuestas incorrectas tendrá -1 y respuestas en blanco tendrá 0.")
 
 
                     Case 2
+                        Console.WriteLine("15. Elabore un algoritmo que permita ingresar el monto de venta alcanzado por un promotor durante el mes, luego de calcular la bonificación que le corresponde sabiendo:")
+
+
+
+                        Console.WriteLine("Write: ")
+                        MV = Console.ReadLine()
+                        Select Case MV
+                            Case MV >= 0 And MV < 1000
+                                Console.WriteLine("h: ")
+
+                                TB = (0 * MV) / 100
+                            Case MV >= 1000 And MV < 5000
+                                Console.WriteLine("o: ")
+                                TB = (3 * MV) / 100
+                            Case MV >= 5000 And MV < 20000
+                                Console.WriteLine("l: ")
+                                TB = (5 * MV) / 100
+                            Case MV >= 20000
+                                Console.WriteLine("a: ")
+                                TB = (8 * MV) / 100
+
+                        End Select
+                        Console.WriteLine("Result: ")
+                        Console.WriteLine(TB)
+
 
                 End Select
 
             Case 4
+
+                Console.WriteLine("1. 20 ")
+                Console.WriteLine("2. 22 ")
+
+                Console.WriteLine("Option: ")
+                opt4 = Console.ReadLine()
+                Select Case opt4
+                    Case 1
+                        Console.WriteLine("20. Elaborar un algoritmo que permita mostrar el sueldo promedio de un grupo de empleados.")
+                        Dim NE As Integer
+                        Dim SP, SS, SE As Double
+                        Console.WriteLine("Write  ")
+                        NE = Console.ReadLine()
+                        For K = 1 To NE
+                            Console.WriteLine("Write  ")
+                            SE = Console.ReadLine()
+                            SS = SS + SE
+
+                        Next
+                        SP = SS / NE
+                        Console.WriteLine("Result: ")
+                        Console.WriteLine(SP)
+                    Case 2
+                        Console.WriteLine("Elaborar un algoritmo que solicite 2 número enteros y muestre su producto por el método de sumas sucesivas.")
+                        Dim PN, SN, P As Integer
+                        P = 0
+                        Console.WriteLine("Write n1  ")
+                        PN = Console.ReadLine()
+                        Console.WriteLine("Write n2  ")
+                        SN = Console.ReadLine()
+                        For k = 1 To SN
+                            P = P + PN
+                        Next
+                        Console.WriteLine("Result")
+                        Console.WriteLine(P)
+                End Select
+
+
             Case 5
+                Console.WriteLine("1. 25 ")
+                Console.WriteLine("2. 26 ")
+                Console.WriteLine("3. 27 ")
+
+                Console.WriteLine("Option: ")
+                opt5 = Console.ReadLine()
+                Select Case opt5
+                    Case 1
+                        Console.WriteLine("25. Elaborar un algoritmo que solicite ingresar letras hasta que este ingrese una vocal.")
+                        Dim SEMAF As String
+                        SEMAF = "V"
+                        Dim L As String
+                        Do While SEMAF = "V"
+                            Console.WriteLine("Write  ")
+                            L = Console.ReadLine()
+                            Select Case L
+                                Case "A"
+                                    SEMAF = "R"
+                                Case "a"
+                                    SEMAF = "R"
+                                Case "E"
+                                    SEMAF = "R"
+                                Case "e"
+                                    SEMAF = "R"
+                                Case "I"
+                                    SEMAF = "R"
+                                Case "i"
+                                    SEMAF = "R"
+                                Case "O"
+                                    SEMAF = "R"
+                                Case "o"
+                                    SEMAF = "R"
+                                Case "U"
+                                    SEMAF = "R"
+                                Case "u"
+                                    SEMAF = "R"
+                                Case Else
+                                    SEMAF = "V"
+                            End Select
+                        Loop
+                    Case 2
+                        Console.WriteLine("26. Elabore un algoritmo que muestre los términos de la serie Fibonacci que sean menores a 100000.")
+                        Dim A, B, C As Integer
+                        A = 0
+                        B = 1
+                        C = A + B
+                        Console.WriteLine(A)
+
+                        Console.WriteLine(B)
+
+                        Do While (C < 100000)
+                            Console.WriteLine(C)
+
+                            A = B
+                            B = C
+                            C = A + B
+
+                        Loop
+                    Case 3
+                        Console.WriteLine("27. Elaborar un algoritmo que solicite 2 números enteros y un operador aritmético y luego debe de mostrar el resultado de la operación correspondiente.")
+                        Dim N1, N2, R As Integer
+                        Dim OP As String
+                        Console.WriteLine("Write n1  ")
+                        N1 = Console.ReadLine()
+                        Console.WriteLine("Write n2  ")
+                        N2 = Console.ReadLine()
+                        Console.WriteLine("Write OP  ")
+                        OP = Console.ReadLine()
+                        Select Case OP
+                            Case "+"
+                                R = N1 + N2
+                            Case "-"
+                                R = N1 - N2
+                            Case "*"
+                                R = N1 * N2
+                            Case "^"
+                                R = N1 ^ N2
+                            Case Else
+                                R = 0
+                        End Select
+                        Console.WriteLine(R)
+
+                End Select
+
             Case 6
+                Console.WriteLine("1. 34 ")
+                Console.WriteLine("2. 35 ")
+                Console.WriteLine("3. 37 ")
+                Console.WriteLine("Option: ")
+                opt6 = Console.ReadLine()
+
             Case 7
             Case 8
             Case 9
