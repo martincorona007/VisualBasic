@@ -1,0 +1,11 @@
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\bin\Debug\netcoreapp2.1\visualBasic2.deps.json
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\bin\Debug\netcoreapp2.1\visualBasic2.runtimeconfig.json
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\bin\Debug\netcoreapp2.1\visualBasic2.runtimeconfig.dev.json
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\bin\Debug\netcoreapp2.1\visualBasic2.dll
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\bin\Debug\netcoreapp2.1\visualBasic2.pdb
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\obj\Debug\netcoreapp2.1\visualBasic2.vbprojAssemblyReference.cache
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\obj\Debug\netcoreapp2.1\visualBasic2.vbproj.CoreCompileInputs.cache
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\obj\Debug\netcoreapp2.1\visualBasic2.AssemblyInfoInputs.cache
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\obj\Debug\netcoreapp2.1\visualBasic2.AssemblyInfo.vb
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\obj\Debug\netcoreapp2.1\visualBasic2.dll
+C:\Users\Genoveva\source\repos\visualBasic2\visualBasic2\obj\Debug\netcoreapp2.1\visualBasic2.pdb
