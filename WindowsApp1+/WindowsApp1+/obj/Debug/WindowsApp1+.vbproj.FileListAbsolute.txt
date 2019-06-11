@@ -1,0 +1,15 @@
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\bin\Debug\WindowsApp1+.exe.config
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\bin\Debug\WindowsApp1+.exe
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\bin\Debug\WindowsApp1+.pdb
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\bin\Debug\WindowsApp1+.xml
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1+.vbprojAssemblyReference.cache
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1_.Resources.resources
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1+.vbproj.GenerateResource.cache
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1+.vbproj.CoreCompileInputs.cache
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1+.exe
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1+.xml
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1+.pdb
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1_.Welcome.resources
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1_.Login.resources
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1_.About.resources
+C:\Users\Genoveva\source\repos\WindowsApp1+\WindowsApp1+\obj\Debug\WindowsApp1_.frmPrincipalMenu.resources
